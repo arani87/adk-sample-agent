@@ -3,3 +3,11 @@ server:
 spring:
   application:
     name: spring-adk-demo-agent
+  ai:
+    mcp:
+      client:
+        type: SYNC
+        streamable-http:
+          connections:
+            remote-server:
+              url: http://localhost:8080/mcp
