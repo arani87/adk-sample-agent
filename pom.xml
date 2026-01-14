@@ -52,7 +52,6 @@
             <groupId>com.google.adk</groupId>
             <artifactId>google-adk-dev</artifactId>
             <version>0.5.0</version>
-            <scope>runtime</scope>
         </dependency>
 
         <dependency>

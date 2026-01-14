@@ -10,7 +10,9 @@ public class AdkConfig {
 
     @Bean
     public InMemoryRunner adkRunner() {
-        return new InMemoryRunner(HelloAgent.AGENT);
+        return new InMemoryRunner(HelloAgent.ROOT_AGENT);
     }
+
+
 }
 

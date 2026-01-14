@@ -9,7 +9,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class HelloAgent {
 
-    public static final BaseAgent AGENT = initAgent();
+    public static final BaseAgent ROOT_AGENT = initAgent();
 
 
     private static BaseAgent initAgent() {
@@ -36,5 +36,6 @@ public class HelloAgent {
                 .tools(mcpToolset)
                 .build();
     }
+
 
 }
